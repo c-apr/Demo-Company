@@ -1,8 +1,8 @@
 import React from 'react'
 import "./Navbar.css";
-import SettingsIcon from '@material-ui/icons/Settings';
+import SettingsIcon from '@mui/icons-material/Settings';
 // import grey from "@material-ui/core/colors/grey";
-import NotificationImportantIcon from '@material-ui/icons/NotificationImportant';
+import NotificationImportantIcon from '@mui/icons-material/NotificationImportant';
 <link href="https://api.fontshare.com/v2/css?f[]=clash-display@400&display=swap" rel="stylesheet">;
 
 </link>
