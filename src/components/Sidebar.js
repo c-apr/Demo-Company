@@ -1,6 +1,6 @@
 import React from "react";
 import "./Sidebar.css";
-import SearchIcon from '@material-ui/icons/Search';
+import SearchIcon from '@mui/icons-material/Search';
 
 function Sidebar() {
   return (
