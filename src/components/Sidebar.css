@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.sidebar{
+    background-color: #1D1F25;
+    display: flex;
+    flex-direction: column  ;
+    justify-content: space-between;
+}
+
+.sidebar__lower{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sidebar__content{
+    margin-left: 40px;
+}
+
+.search{
+    padding-bottom: 20px;
+}
+
+.sidebar__search{
+    display: flex;
+    align-items: center;
+    width: 448px;
+    height: 45px;
+    background: #282C38;
+    color: #757B8C;
+    border-radius: 6px;
+    padding-left: 15px;
+    margin-left: 40px;
+}
+
+.sidebar__input{
+    background: #282C38;
+    color: #757B8C;
+    border: none;
+    outline: none;
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    width: inherit;
+}
+
+.head p{
+    margin-top: 0;
+    color: #FFFFFF;
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    padding-top: 20px;
+}
+
+.boxes{
+    display: flex;
+    width: 140px;
+    justify-content: space-between;
+}
+
+.sideBox{
+    width: 43px;
+    height: 43px;
+    background-color: #282C38;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.sideBox__upperBox{
+    background-color: #757B8C;
+    width: 13px;
+    height: 8.5px;
+    border-radius: 2px;
+    margin-top: 12px;
+    margin-left: 12px;
+    margin-right: 22.5px;
+   
+}
+.sideBox__lowerBox{
+    background-color: #757B8C;
+    width: 20px;
+    height: 8.5px;
+    border-radius: 2px;
+    margin-top: 3px;
+    margin-left: 12px;
+    margin-right: 11px;
+    margin-bottom: 22.5px;
+}
+
+.centerBox{
+    width: 43px;
+    height: 43px;
+    background-color: #FFBB29;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+.Part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+}
+
+.Box{
+    height: 8.5px;
+    width: 8.5px;
+    background-color:#141518;
+    border-radius: 2px;
+    margin: 1.5px;
+}
+
+.lowerPart{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3px;
+}
+

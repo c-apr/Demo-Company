@@ -1,0 +1,70 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.navbar{
+    display: flex;
+    position: sticky;
+    justify-content:space-between;
+    align-items: center;
+    top: 0px; 
+    background: #1D1F25;
+    border-bottom: 1px solid rgba(255,255,255,0.15);
+    z-index: 10;
+}
+.navbar__left{
+    display: flex;
+}
+
+.logo{
+    margin-top: 5px;
+    margin-left: 36px;
+    font-family: 'Clash Display',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    color: #FFBB29;
+   
+
+}
+
+.navigationlist ul{
+    display: flex; 
+}
+
+
+.navigationlist ul li{
+    list-style: none;
+    margin: 20px;
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #FFFFFF;
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.navigationlist ul li:hover{
+    color: #FFBB29;
+    opacity: 1;
+}
+
+#blog{
+    color: #FFBB29;
+    opacity: 1;
+}
+
+.nav__option{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.6);
+    margin-right: 40px;
+    width: 120px;
+    cursor: pointer;
+    transition: transform .2s;
+}
+
+.nav__options:hover{
+    transform: scale(1.13);
+}
